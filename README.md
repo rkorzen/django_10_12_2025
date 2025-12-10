@@ -7,3 +7,30 @@
 potem do 17
 
 
+
+## instalacja django
+
+    pip install django
+    
+    uv add django
+
+## tworzenie projektu:
+
+Przy aktywnym srodowisku z zainstalowanym django:
+
+    django-admin startproject <nazwa>
+
+## uruchomienie serwera:
+
+    cd <nazwa>
+    python manage.py runserver
+
+
+## wykonanie migracji:
+
+    python manage.py migrate
+
+## tworzenie superusera:
+
+    python manage.py createsuperuser
+
