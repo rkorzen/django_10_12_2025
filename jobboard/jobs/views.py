@@ -29,7 +29,7 @@ def offers_list(request):
 
     return render(
         request,
-        "lista.html",
+        "jobs/lista.html",
         {"offers": offers}
     )
 
