@@ -65,3 +65,44 @@ Utworz projekt todo_project z aplikacja todo.
 
 zadanie ma miec tytul i tresc
 zamodeluj baze - poprzez zwykla pythonowa liste zawierajaca dane - moze to byc slownik, albo obiekt
+
+
+## Migracje
+
+### Polecenia do migracji:
+
+    python manage.py makemigrations
+    python manage.py migrate
+
+
+    python manage.py makemigrations <app_label>
+    python manage.py migrate <app_label>
+
+    python manage.py showmigrations
+    python manage.py sqlmigrate <app_label> <migration_name>
+
+
+    # cofniecie migracji dla konkretnej aplikacji
+    python manage.py migrate <app_label> zero
+
+    python manage.py migrate <app_label> <migration number>
+
+
+## Praca z modelem w shell
+
+    python manage.py shell
+
+### tworzenie obiektu:
+
+    o = Offer()
+    o.title = "test"
+    o.description = "test"
+    o.save()
+
+    o2 = Offer.objects.create(title="test2", description="test2")
+
+## cwieczenie - prosty model
+
+Utworz model Todo z polami title i description, start_date i end_date i flaga is_done
+wykonaj migracje
+w shell utworz 2 instancje tej klasy i zapisz je do bazy

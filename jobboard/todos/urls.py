@@ -1,13 +1,9 @@
 from django.urls import path
 from . import views
 
-app_name = "jobs"
+app_name = "todos"
 urlpatterns = [
-    # / strona glowna
-    path("",  views.home_view),
     path(app_name, views.list, name="list"),
     path(f"{app_name}/<int:id>", views.detail, name="detail"),
     path(f"{app_name}/add", views.add),
-    path("about", views.about),
-    path("contact", views.contact),
 ]

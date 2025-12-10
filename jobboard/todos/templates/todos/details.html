@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block title %}Szczegołu oferty {{ todo.id }}{% endblock %}
+
+{% block content %}
+    <h1>{{ todo.title }}</h1>
+    <p>{{ todo.description }}</p>
+    <a href="{% url "todos:list" %}">Powrót</a>
+{% endblock %}

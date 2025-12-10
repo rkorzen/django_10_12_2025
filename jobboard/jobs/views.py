@@ -25,7 +25,7 @@ def home_view(request):
 #     return HttpResponse(text)
 
 from django.template.loader import render_to_string
-def offers_list(request):
+def list(request):
     # pobieram z bazy
     offers = baza
 
@@ -41,11 +41,11 @@ def offers_list(request):
     # return HttpResponse(rendered)
     return render(
         request,
-        "jobs/lista.html",
+        "jobs/list.html",
         context
     )
 
-def offer_detail(request, id):
+def detail(request, id):
 
     offer = [x for x in baza if x.id == id]
 
@@ -57,7 +57,7 @@ def offer_detail(request, id):
         context
     )
 
-def offer_add(request):
+def add(request):
     return HttpResponse("Dodanie oferty")
 
 def about(request):
