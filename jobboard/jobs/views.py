@@ -2,7 +2,9 @@ from http.cookiejar import HEADER_JOIN_TOKEN_RE
 
 from django.shortcuts import render
 from django.http import HttpResponse
-from .models import baza
+from .models import baza, Offer
+
+
 # Create your views here.
 def home_view(request):
     return HttpResponse("Hello Worlsdsdsdd!")
@@ -27,7 +29,7 @@ def home_view(request):
 from django.template.loader import render_to_string
 def list(request):
     # pobieram z bazy
-    offers = baza
+    offers = Offer.objects.all()
 
     context = {
             "offers": offers,
@@ -47,10 +49,11 @@ def list(request):
 
 def detail(request, id):
 
-    offer = [x for x in baza if x.id == id]
+    # offer = [x for x in baza if x.id == id]
+    #context = {"offer": offer[0]}
 
-    context = {"offer": offer[0]}
-
+    offer = Offer.objects.get(id=id)
+    context = {"offer": offer}
     return render(
         request,
         "jobs/details.html",
