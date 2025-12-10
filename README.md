@@ -34,3 +34,34 @@ Przy aktywnym srodowisku z zainstalowanym django:
 
     python manage.py createsuperuser
 
+## tworzenie aplikacji:
+
+    python manage.py startapp <nazwa>
+
+# idea projektu joboffers
+
+    / - glowna strona
+    /offers - strona z lista ofert
+    /offers/<id> - strona ze szczegolami konkretnej oferty
+    </offers/add - strona dodawania oferty>
+    /about - strona o projekcie
+    /kontakt - strona z formularzem kontaktowym
+
+## adres URL
+
+
+
+http://example.com/this/is/path?query=string&a=1#fragment=anchor
+
+http://127.0.0.1:8000/offers/
+
+
+## Cwiczenie 1.
+
+Utworz projekt todo_project z aplikacja todo.
+
+/todos - lista zadan (z linkami do szczegolow zadan)
+/todos/<id> - szczegoly zadania
+
+zadanie ma miec tytul i tresc
+zamodeluj baze - poprzez zwykla pythonowa liste zawierajaca dane - moze to byc slownik, albo obiekt
