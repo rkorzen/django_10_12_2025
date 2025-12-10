@@ -2,6 +2,8 @@ from http.cookiejar import HEADER_JOIN_TOKEN_RE
 
 from django.shortcuts import render
 from django.http import HttpResponse
+
+from tags.models import Tag
 from .models import baza, Offer
 
 
@@ -29,13 +31,23 @@ def home_view(request):
 from django.template.loader import render_to_string
 def list(request):
     # pobieram z bazy
-    offers = Offer.objects.all()
+    # print(dir(request))
+    # print(request.GET)
+
+    tag  = request.GET.get("tag")
+    if tag:
+        offers = Offer.objects.filter(tags__name=tag)
+    else:
+        offers = Offer.objects.all()
+    tags = Tag.objects.all()
+
 
     context = {
             "offers": offers,
             "text": "to jest jakios tekst",
             "lista": [1, 2, 3, 4],
-            "slownik": {"a": "aaa", "b": "bbb"}
+            "slownik": {"a": "aaa", "b": "bbb"},
+            "tags": tags
 
         }
 

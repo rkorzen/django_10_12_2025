@@ -1,6 +1,15 @@
 {% extends 'base.html' %}
 
 {% block content %}
+
+    {% for tag in tags %}
+
+        <a href="?tag={{ tag.name }}" class="btn btn-primary">{{ tag.name }}</a>
+
+    {% endfor %}
+
+
+
     <h1>Lista ofert</h1>
     <div class="row">
         <div class="col-md-8">
