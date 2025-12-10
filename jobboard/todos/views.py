@@ -1,10 +1,13 @@
 from django.http import HttpResponse
 from django.shortcuts import render
-from .models import baza
+from .models import baza, Todo
+
 
 def list(request):
     # pobieram z bazy
-    todos = baza
+    todos = Todo.objects.all()
+    if q := request.GET.get("q"):
+        todos = todos.filter(title__icontains=q)
 
     context = {
             "todos": todos,
