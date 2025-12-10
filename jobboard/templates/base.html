@@ -2,9 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>{% block title %}{% endblock %}</title>
 </head>
 <body>
-Tu ma byc lista ofert
+<header>Heder strony</header>
+
+{% block content %}
+{% endblock %}
+
+<footer>Footer</footer>
 </body>
 </html>

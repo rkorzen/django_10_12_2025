@@ -8,5 +8,7 @@ class Job:
     title: str
     description: str
 
+    def info(self):
+        return f"{self.title} {self.description}"
 
 baza = [Job(1, "A", "ABC"), Job(2, "B", "ABCD")]

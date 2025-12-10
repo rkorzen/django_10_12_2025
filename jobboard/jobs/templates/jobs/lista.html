@@ -1,14 +1,42 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-<h1>Lista ofert</h1>
+{% extends 'base.html' %}
 
-{% for oferta in offers %}
-<p>{{ oferta.title }}</p>
-{% endfor %}
-</body>
-</html>
+{% block content %}
+    <h1>Lista ofert</h1>
+
+    {% for oferta in offers %}
+        <p><a href="{% url 'jobs:detail' oferta.id %}">{{ oferta.info }}</a></p>
+    {% endfor %}
+
+    {{ offers }}<br>
+    {{ lista }}<br>
+
+    {{ lista.1 }}<br>
+
+
+    {{ text }}<br>
+
+    {% if "xxx" in text %}
+        <p>paragraf wlaczony warunkowo</p>
+    {% endif %}
+
+    {% if xxx %}
+     <p>paragraf wlaczony warunkowo</p>
+    {% endif %}
+
+
+
+    {{ slownik }}<br>
+
+    {{ slownik.b }}<br>
+
+
+    <p>proste filtry</p>
+
+    {{ "to jest tekst"|upper }}<br>
+    {{ text|upper }}
+
+
+{% endblock %}
+
+
+{% block title %}Lista ofert{% endblock %}

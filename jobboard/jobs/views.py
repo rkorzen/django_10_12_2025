@@ -1,3 +1,5 @@
+from http.cookiejar import HEADER_JOIN_TOKEN_RE
+
 from django.shortcuts import render
 from django.http import HttpResponse
 from .models import baza
@@ -22,19 +24,38 @@ def home_view(request):
 #     text += "</body></html>"
 #     return HttpResponse(text)
 
-
+from django.template.loader import render_to_string
 def offers_list(request):
     # pobieram z bazy
     offers = baza
 
+    context = {
+            "offers": offers,
+            "text": "to jest jakios tekst",
+            "lista": [1, 2, 3, 4],
+            "slownik": {"a": "aaa", "b": "bbb"}
+
+        }
+
+    # rendered = render_to_string("jobs/lista.html", context)
+    # return HttpResponse(rendered)
     return render(
         request,
         "jobs/lista.html",
-        {"offers": offers}
+        context
     )
 
 def offer_detail(request, id):
-    return HttpResponse(f"Szczegoly oferty: {id}")
+
+    offer = [x for x in baza if x.id == id]
+
+    context = {"offer": offer[0]}
+
+    return render(
+        request,
+        "jobs/details.html",
+        context
+    )
 
 def offer_add(request):
     return HttpResponse("Dodanie oferty")
