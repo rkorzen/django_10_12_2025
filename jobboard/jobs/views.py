@@ -35,10 +35,15 @@ def list(request):
     # print(request.GET)
 
     tag  = request.GET.get("tag")
+    q  = request.GET.get("q")
+
     if tag:
-        offers = Offer.objects.filter(tags__name=tag)
+        offers = Offer.objects.filter(tags__name__iexact=tag)  # tags.name == tag
     else:
         offers = Offer.objects.all()
+
+    if q:
+        offers = offers.filter(title__icontains=q)
     tags = Tag.objects.all()
 
 

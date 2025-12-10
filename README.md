@@ -110,3 +110,5 @@ w shell utworz 2 instancje tej klasy i zapisz je do bazy
 ## cwiczenie - utworz relacje z Tag dla Todo
 
 ## cwiczenie - zmien sposob wyswietlania tagow w PA dla ofert
+
+## cwiczenie - uzyj parametru q z request.GET do filtrowania TODO w widoku listy (analogicznie do jobs)
