@@ -108,3 +108,5 @@ wykonaj migracje
 w shell utworz 2 instancje tej klasy i zapisz je do bazy
 
 ## cwiczenie - utworz relacje z Tag dla Todo
+
+## cwiczenie - zmien sposob wyswietlania tagow w PA dla ofert

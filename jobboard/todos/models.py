@@ -18,3 +18,4 @@ class Todo(models.Model):
     start_date = models.DateTimeField()
     end_date = models.DateTimeField()
     is_done = models.BooleanField(default=False)
+    tags = models.ManyToManyField("tags.Tag", blank=True)
