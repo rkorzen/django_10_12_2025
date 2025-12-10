@@ -2,40 +2,42 @@
 
 {% block content %}
     <h1>Lista ofert</h1>
+    <div class="row">
+        <div class="col-md-8">
+            {% for oferta in offers %}
+                <p><a href="{% url 'jobs:detail' oferta.id %}">{{ oferta.info }}</a></p>
+            {% endfor %}
+        </div>
+        <div class="col-md-4">
+            {{ offers }}<br>
+            {{ lista }}<br>
 
-    {% for oferta in offers %}
-        <p><a href="{% url 'jobs:detail' oferta.id %}">{{ oferta.info }}</a></p>
-    {% endfor %}
-
-    {{ offers }}<br>
-    {{ lista }}<br>
-
-    {{ lista.1 }}<br>
-
-
-    {{ text }}<br>
-
-    {% if "xxx" in text %}
-        <p>paragraf wlaczony warunkowo</p>
-    {% endif %}
-
-    {% if xxx %}
-     <p>paragraf wlaczony warunkowo</p>
-    {% endif %}
+            {{ lista.1 }}<br>
 
 
+            {{ text }}<br>
 
-    {{ slownik }}<br>
+            {% if "xxx" in text %}
+                <p>paragraf wlaczony warunkowo</p>
+            {% endif %}
 
-    {{ slownik.b }}<br>
-
-
-    <p>proste filtry</p>
-
-    {{ "to jest tekst"|upper }}<br>
-    {{ text|upper }}
+            {% if xxx %}
+                <p>paragraf wlaczony warunkowo</p>
+            {% endif %}
 
 
+
+            {{ slownik }}<br>
+
+            {{ slownik.b }}<br>
+
+
+            <p>proste filtry</p>
+
+            {{ "to jest tekst"|upper }}<br>
+            {{ text|upper }}
+        </div>
+    </div>
 {% endblock %}
 
 

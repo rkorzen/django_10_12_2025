@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 
     "jobs",
     "todos",
+    "tags",
 ]
 
 MIDDLEWARE = [

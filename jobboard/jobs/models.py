@@ -20,6 +20,10 @@ class Offer(models.Model):
     description = models.TextField()
     is_published = models.BooleanField(default=False)
     created_at = models.DateTimeField(auto_now_add=True)
+    tags = models.ManyToManyField("tags.Tag", blank=True)
 
     def info(self):
         return f"{self.title} {self.description}"
+
+    def __str__(self):
+        return self.title

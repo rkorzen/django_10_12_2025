@@ -106,3 +106,5 @@ zamodeluj baze - poprzez zwykla pythonowa liste zawierajaca dane - moze to byc s
 Utworz model Todo z polami title i description, start_date i end_date i flaga is_done
 wykonaj migracje
 w shell utworz 2 instancje tej klasy i zapisz je do bazy
+
+## cwiczenie - utworz relacje z Tag dla Todo
