@@ -11,6 +11,8 @@ class Company(models.Model):
     name = models.CharField(max_length=255)
     website = models.URLField(blank=True)
     size = models.PositiveIntegerField(blank=True, null=True)
+    logo = models.ImageField(upload_to="companies/logos/", blank=True)
+
 
     def __str__(self):
         return self.name
