@@ -121,5 +121,13 @@ Dodaj do Panelu Admina
 
 ## cwiczenie - fabryki
 
-Utworz fabryke dla Todo i Category.
+Utworz fabryke dla Tag
+Utorz polecenie ktore utworzy n Todo, np:
 
+    python manage.py create_todos 10
+
+## cwiczenie - testy modeli
+
+Dopisz testy do modelu Company
+Dopisz testu do modelu Todo
+Dopisz testy do modelu Tag
