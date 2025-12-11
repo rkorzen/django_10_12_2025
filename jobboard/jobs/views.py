@@ -1,3 +1,6 @@
+import logging
+
+
 from django.core.mail import send_mail
 from django.core.paginator import Paginator
 from django.http import HttpResponse
@@ -8,6 +11,8 @@ from tags.models import Tag
 from .forms import ContactForm
 from .models import Offer
 
+
+logger = logging.getLogger(__name__)
 
 def home_view(request):
     return HttpResponse("Hello Worlsdsdsdd!")
@@ -81,6 +86,7 @@ def contact(request):
     form = ContactForm()
 
     if request.method == "POST":
+
         email = request.POST.get("email")
         content = request.POST.get("content")
 
@@ -95,6 +101,9 @@ def contact(request):
                 settings.DEFAULT_FROM_EMAIL,
                 [settings.DEFAULT_FROM_EMAIL,]
             )
+
+            logger.info("Wyslano emaila ze strony kontaktowej: {} {}".format(email, content))
+
         else:
             print(form.errors)
     return render(

@@ -1,0 +1,13 @@
+2025-12-11 15:58:08,613 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-11 15:58:20,970 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/jobboard/settings.py changed, reloading.
+2025-12-11 15:58:21,397 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-11 15:59:24,965 [INFO] django.server: "POST /contact HTTP/1.1" 200 4770
+2025-12-11 16:00:05,878 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/jobboard/settings.py changed, reloading.
+2025-12-11 16:00:06,290 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-11 16:00:19,314 [INFO] jobs.views: Wyslano emaila ze strony kontaktowej: x@wp.pl 123123asd
+2025-12-11 16:00:19,346 [INFO] django.server: "POST /contact HTTP/1.1" 200 4770
+2025-12-11 16:02:17,357 [INFO] django.server: "GET /jobs HTTP/1.1" 200 6382
+2025-12-11 16:02:19,034 [INFO] django.server: "GET /jobs/1 HTTP/1.1" 200 3896
+2025-12-11 16:03:08,353 [INFO] django.server: "GET /contact HTTP/1.1" 200 4745
+2025-12-11 16:03:10,019 [INFO] django.server: "GET /jobs HTTP/1.1" 200 6382
+2025-12-11 16:03:10,922 [INFO] django.server: "GET /jobs/1 HTTP/1.1" 200 3896
