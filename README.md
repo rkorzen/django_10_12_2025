@@ -117,3 +117,9 @@ w shell utworz 2 instancje tej klasy i zapisz je do bazy
 
 Dodaj model Category z polami name i slug (models.SlugField). Wprowadz relacje z Todo.
 Dodaj do Panelu Admina
+
+
+## cwiczenie - fabryki
+
+Utworz fabryke dla Todo i Category.
+
