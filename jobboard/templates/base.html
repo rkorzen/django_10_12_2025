@@ -7,17 +7,7 @@
           integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
     <style>
-        .tag-link {
-            display: inline-block;
-            padding: 0.25em 0.4em;
-            font-size: 75%;
-            font-weight: 700;
-            line-height: 1;
-            text-align: center;
-            white-space: nowrap;
-            vertical-align: baseline;
-            border-radius: 0.25rem;
-        }
+       header {margin-bottom: 5px;}
 
     </style>
 
@@ -39,7 +29,7 @@
                     <li><a href="{% url "jobs:list" %}" class="nav-link px-2 text-white">Offers</a></li>
                     <li><a href="{% url "todos:list" %}" class="nav-link px-2 text-white">Todos</a></li>
                     <li><a href="#" class="nav-link px-2 text-white">About</a></li>
-                    <li><a href="#" class="nav-link px-2 text-white">Contact</a></li>
+                    <li><a href="{% url "jobs:contact" %}" class="nav-link px-2 text-white">Contact</a></li>
                 </ul>
                 <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
                     <input

@@ -9,5 +9,5 @@ urlpatterns = [
     path(f"{app_name}/<int:id>", views.detail, name="detail"),
     path(f"{app_name}/add", views.add),
     path("about", views.about),
-    path("contact", views.contact),
+    path("contact", views.contact, name="contact"),
 ]

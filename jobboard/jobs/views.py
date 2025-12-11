@@ -1,10 +1,11 @@
-from http.cookiejar import HEADER_JOIN_TOKEN_RE
-
+from django.core.mail import send_mail
 from django.core.paginator import Paginator
 from django.http import HttpResponse
 from django.shortcuts import render
+from django.conf import settings
 
 from tags.models import Tag
+from .forms import ContactForm
 from .models import Offer
 
 
@@ -75,4 +76,29 @@ def about(request):
 
 
 def contact(request):
-    return HttpResponse("Kontakt")
+    print(request.method)
+    print(request.POST)
+    form = ContactForm()
+
+    if request.method == "POST":
+        email = request.POST.get("email")
+        content = request.POST.get("content")
+
+        form = ContactForm(request.POST)
+        if form.is_valid():
+
+            body = f"Wiadomość od {email}: {content}"
+
+            send_mail(
+                "Nowa wiadomość od strony kontaktowej",
+                body,
+                settings.DEFAULT_FROM_EMAIL,
+                [settings.DEFAULT_FROM_EMAIL,]
+            )
+        else:
+            print(form.errors)
+    return render(
+        request,
+        "contact.html",
+        {"form": form}
+    )
