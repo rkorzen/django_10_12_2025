@@ -1,6 +1,5 @@
 import logging
 
-
 from django.core.mail import send_mail
 from django.core.paginator import Paginator
 from django.http import HttpResponse
@@ -8,11 +7,11 @@ from django.shortcuts import render
 from django.conf import settings
 
 from tags.models import Tag
-from .forms import ContactForm
-from .models import Offer
-
+from .forms import ContactForm, OfferRegistrationForm
+from .models import Offer, Registration
 
 logger = logging.getLogger(__name__)
+
 
 def home_view(request):
     return HttpResponse("Hello Worlsdsdsdd!")
@@ -62,9 +61,25 @@ def list(request):
 def detail(request, id):
     # offer = [x for x in baza if x.id == id]
     # context = {"offer": offer[0]}
-
     offer = Offer.objects.get(id=id)
-    context = {"offer": offer}
+    form = OfferRegistrationForm()
+
+    if request.method == "POST":
+        form = OfferRegistrationForm(request.POST)
+        if form.is_valid():
+            instance = form.save(commit=False)
+            # szukam czy juz takie zgloszenie istnieje
+            try:
+                # uwaga - to jest tylko przyklad - tu jest duzo pulapek - mozna nadpisac czyjesz zgloszenie
+                r = Registration.objects.get(offer=offer, email=instance.email)
+                if instance.message:
+                    r.message = instance.message
+                    r.save()
+            except Registration.DoesNotExist:
+                instance.offer = Offer.objects.get(id=id)
+                instance.save()
+
+    context = {"offer": offer, "form": form}
     return render(
         request,
         "jobs/details.html",
@@ -99,7 +114,7 @@ def contact(request):
                 "Nowa wiadomość od strony kontaktowej",
                 body,
                 settings.DEFAULT_FROM_EMAIL,
-                [settings.DEFAULT_FROM_EMAIL,]
+                [settings.DEFAULT_FROM_EMAIL, ]
             )
 
             logger.info("Wyslano emaila ze strony kontaktowej: {} {}".format(email, content))

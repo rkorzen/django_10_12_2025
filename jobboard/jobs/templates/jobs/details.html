@@ -1,10 +1,20 @@
 {% extends "base.html" %}
-
+{% load crispy_forms_tags %}
 {% block title %}Szczegołu oferty {{ offer.id }}{% endblock %}
 
 {% block content %}
-    <h1>{{ offer.title }}</h1>
-    <p>{{ offer.description }}</p>
+    <div class="row">
+        <div class="col-md-6">
+            <h1>{{ offer.title }}</h1>
+            <p>{{ offer.description }}</p>
+        </div>
+        <div class="col-md-6">
+            {% crispy form %}
+        </div>
+
+    </div>
+
+
 
 
     <a href="{% url "jobs:list" %}">Powrót</a>

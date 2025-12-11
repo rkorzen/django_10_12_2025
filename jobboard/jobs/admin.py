@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Offer, RecruiterProfile, Company
+from .models import Offer, RecruiterProfile, Company, Registration
 
 
 @admin.register(Offer)
@@ -19,3 +19,8 @@ class RecruiterProfileAdmin(admin.ModelAdmin):
 @admin.register(Company)
 class CompanyAdmin(admin.ModelAdmin):
     list_display = ["name", "website", "size"]
+
+
+@admin.register(Registration)
+class RegistrationAdmin(admin.ModelAdmin):
+    list_display = ["offer", "email"]

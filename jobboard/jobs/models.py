@@ -31,3 +31,9 @@ class Offer(models.Model):
 
     def __str__(self):
         return self.title
+
+
+class Registration(models.Model):
+    offer = models.ForeignKey(Offer, on_delete=models.CASCADE)
+    message = models.TextField(blank=True)
+    email = models.EmailField()
