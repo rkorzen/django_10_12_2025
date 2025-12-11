@@ -134,3 +134,9 @@ Dopisz testy do modelu Tag
 
 
 ## cwiczenie - stworz poleceniem duzo Todo i dodaj paginacje do widoku listy (widok i szablon)
+
+
+## cwiczenie 
+
+stworz prost formularz zgloszenia na oferte - ma miec jedno pole email i przycisk. 
+Wyslanie formularza metoda post powinno spowodowac "wyslanie emaila do admina" i odlozenia informacji w logach
