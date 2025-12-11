@@ -16,6 +16,19 @@
             {% for oferta in offers %}
                 <p><a href="{% url 'jobs:detail' oferta.id %}">{{ oferta.info }}</a></p>
             {% endfor %}
+            <div class="pagination">
+                {% if offers.has_previous %}
+                    <a href="?page=1&per_page={{ per_page }}">first</a>&nbsp;&nbsp; | &nbsp;&nbsp;
+                    <a href="?page={{ offers.previous_page_number }}&per_page={{ per_page }}"><<</a> &nbsp;&nbsp; | &nbsp;&nbsp;
+                {% endif %}
+
+                {% if offers.has_next %}
+                    <a href="?page={{ offers.next_page_number }}&per_page={{ per_page }}"> >> &nbsp;&nbsp; | &nbsp;&nbsp; </a>
+                    <a href="?page={{ offers.paginator.num_pages }}&per_page={{ per_page }}">last</a>
+
+                {% endif %}
+            </div>
+
         </div>
         <div class="col-md-4">
             {{ offers }}<br>

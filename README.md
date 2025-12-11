@@ -131,3 +131,6 @@ Utorz polecenie ktore utworzy n Todo, np:
 Dopisz testy do modelu Company
 Dopisz testu do modelu Todo
 Dopisz testy do modelu Tag
+
+
+## cwiczenie - stworz poleceniem duzo Todo i dodaj paginacje do widoku listy (widok i szablon)

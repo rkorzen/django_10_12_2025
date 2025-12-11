@@ -1,7 +1,8 @@
 from http.cookiejar import HEADER_JOIN_TOKEN_RE
 
-from django.shortcuts import render
+from django.core.paginator import Paginator
 from django.http import HttpResponse
+from django.shortcuts import render
 
 from tags.models import Tag
 from .models import Offer
@@ -9,9 +10,6 @@ from .models import Offer
 
 def home_view(request):
     return HttpResponse("Hello Worlsdsdsdd!")
-
-
-from django.template.loader import render_to_string
 
 
 def list(request):
@@ -29,10 +27,16 @@ def list(request):
 
     if q:
         offers = offers.filter(title__icontains=q)
+
     tags = Tag.objects.all()
+    page_number = request.GET.get("page", 1)
+    per_page = request.GET.get("per_page", 10)
+    p = Paginator(offers, per_page)
+    page = p.page(page_number)
 
     context = {
-        "offers": offers,
+        "offers": page,
+        "per_page": per_page,
         "text": "to jest jakios tekst",
         "lista": [1, 2, 3, 4],
         "slownik": {"a": "aaa", "b": "bbb"},
