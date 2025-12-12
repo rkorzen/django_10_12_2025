@@ -482,3 +482,238 @@ TypeError: info() missing 1 required positional argument: 'message'
 2025-12-12 13:42:24,543 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
 2025-12-12 13:47:10,260 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/snippets/views.py changed, reloading.
 2025-12-12 13:47:10,931 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 13:53:44,056 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/snippets/views.py changed, reloading.
+2025-12-12 13:53:45,033 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 13:53:47,172 [INFO] django.server: "GET /api/snippets/?format=json HTTP/1.1" 200 376
+2025-12-12 13:53:52,253 [INFO] django.server: "GET /api/snippets/ HTTP/1.1" 200 70152
+2025-12-12 13:53:52,332 [INFO] django.server: "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+2025-12-12 13:53:52,339 [INFO] django.server: "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+2025-12-12 13:53:52,340 [INFO] django.server: "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+2025-12-12 13:53:52,341 [INFO] django.server: "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 304 0
+2025-12-12 13:53:52,344 [INFO] django.server: "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+2025-12-12 13:53:52,347 [INFO] django.server: "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+2025-12-12 13:53:52,348 [INFO] django.server: "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+2025-12-12 13:53:52,350 [INFO] django.server: "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+2025-12-12 13:53:52,351 [INFO] django.server: "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 304 0
+2025-12-12 13:53:52,351 [INFO] django.server: "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+2025-12-12 13:53:52,352 [INFO] django.server: "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+2025-12-12 13:53:52,352 [INFO] django.server: "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+2025-12-12 13:53:58,974 [INFO] django.server: "GET /api/snippets/1 HTTP/1.1" 301 0
+2025-12-12 13:53:59,012 [INFO] django.server: "GET /api/snippets/1/ HTTP/1.1" 200 70463
+2025-12-12 13:56:28,164 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/snippets/views.py changed, reloading.
+2025-12-12 13:56:28,781 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 13:56:29,211 [INFO] django.server: "GET /api/snippets/1/ HTTP/1.1" 200 70671
+2025-12-12 13:56:38,696 [INFO] django.server: "GET /api/snippets/ HTTP/1.1" 200 70152
+2025-12-12 14:03:20,596 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/snippets/models.py changed, reloading.
+2025-12-12 14:03:21,395 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 14:07:11,723 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/snippets/migrations/0001_initial.py changed, reloading.
+2025-12-12 14:07:12,630 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 14:11:11,305 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/snippets/views.py changed, reloading.
+2025-12-12 14:11:11,862 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 14:12:02,479 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/snippets/urls.py changed, reloading.
+2025-12-12 14:12:03,243 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 14:12:10,887 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/snippets/urls.py changed, reloading.
+2025-12-12 14:12:11,598 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 14:12:20,766 [INFO] django.server: "GET /api/users/ HTTP/1.1" 200 81366
+2025-12-12 14:12:20,816 [INFO] django.server: "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+2025-12-12 14:12:20,817 [INFO] django.server: "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+2025-12-12 14:12:20,817 [INFO] django.server: "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+2025-12-12 14:12:20,820 [INFO] django.server: "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+2025-12-12 14:12:20,820 [INFO] django.server: "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+2025-12-12 14:12:20,822 [INFO] django.server: "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+2025-12-12 14:12:20,824 [INFO] django.server: "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+2025-12-12 14:12:20,825 [INFO] django.server: "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+2025-12-12 14:12:20,826 [INFO] django.server: "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+2025-12-12 14:12:20,826 [INFO] django.server: "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 304 0
+2025-12-12 14:12:20,828 [INFO] django.server: "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 304 0
+2025-12-12 14:12:20,831 [INFO] django.server: "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+2025-12-12 14:12:29,496 [INFO] django.server: "GET /api/users/1 HTTP/1.1" 301 0
+2025-12-12 14:12:29,514 [INFO] django.server: "GET /api/users/1/ HTTP/1.1" 200 10163
+2025-12-12 14:12:38,225 [INFO] django.server: "GET /api/users/ HTTP/1.1" 200 81366
+2025-12-12 14:13:02,489 [INFO] django.server: "GET /api/snippets/ HTTP/1.1" 200 69087
+2025-12-12 14:13:15,257 [ERROR] django.request: Internal Server Error: /api/snippets/
+Traceback (most recent call last):
+  File "/Users/rkorzen/workspace/django_10_12_2025/.venv/lib/python3.14/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/rkorzen/workspace/django_10_12_2025/.venv/lib/python3.14/site-packages/django/db/backends/sqlite3/base.py", line 359, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+sqlite3.IntegrityError: NOT NULL constraint failed: snippets_snippet.owner_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/rkorzen/workspace/django_10_12_2025/.venv/lib/python3.14/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/rkorzen/workspace/django_10_12_2025/.venv/lib/python3.14/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/rkorzen/workspace/django_10_12_2025/.venv/lib/python3.14/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/Users/rkorzen/workspace/django_10_12_2025/.venv/lib/python3.14/site-packages/django/views/generic/base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rkorzen/workspace/django_10_12_2025/.venv/lib/python3.14/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/rkorzen/workspace/django_10_12_2025/.venv/lib/python3.14/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/rkorzen/workspace/django_10_12_2025/.venv/lib/python3.14/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/Users/rkorzen/workspace/django_10_12_2025/.venv/lib/python3.14/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/rkorzen/workspace/django_10_12_2025/.venv/lib/python3.14/site-packages/rest_framework/generics.py", line 246, in post
+    return self.create(request, *args, **kwargs)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rkorzen/workspace/django_10_12_2025/.venv/lib/python3.14/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/rkorzen/workspace/django_10_12_2025/.venv/lib/python3.14/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+    ~~~~~~~~~~~~~~~^^
+  File "/Users/rkorzen/workspace/django_10_12_2025/.venv/lib/python3.14/site-packages/rest_framework/serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+                    ~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/rkorzen/workspace/django_10_12_2025/.venv/lib/python3.14/site-packages/rest_framework/serializers.py", line 991, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "/Users/rkorzen/workspace/django_10_12_2025/.venv/lib/python3.14/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/rkorzen/workspace/django_10_12_2025/.venv/lib/python3.14/site-packages/django/db/models/query.py", line 669, in create
+    obj.save(force_insert=True, using=self.db)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rkorzen/workspace/django_10_12_2025/jobboard/snippets/models.py", line 38, in save
+    super().save(*args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/rkorzen/workspace/django_10_12_2025/.venv/lib/python3.14/site-packages/django/db/models/base.py", line 874, in save
+    self.save_base(
+    ~~~~~~~~~~~~~~^
+        using=using,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        update_fields=update_fields,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/rkorzen/workspace/django_10_12_2025/.venv/lib/python3.14/site-packages/django/db/models/base.py", line 966, in save_base
+    updated = self._save_table(
+        raw,
+    ...<4 lines>...
+        update_fields,
+    )
+  File "/Users/rkorzen/workspace/django_10_12_2025/.venv/lib/python3.14/site-packages/django/db/models/base.py", line 1167, in _save_table
+    results = self._do_insert(
+        cls._base_manager, using, insert_fields, returning_fields, raw
+    )
+  File "/Users/rkorzen/workspace/django_10_12_2025/.venv/lib/python3.14/site-packages/django/db/models/base.py", line 1218, in _do_insert
+    return manager._insert(
+           ~~~~~~~~~~~~~~~^
+        [self],
+        ^^^^^^^
+    ...<3 lines>...
+        raw=raw,
+        ^^^^^^^^
+    )
+    ^
+  File "/Users/rkorzen/workspace/django_10_12_2025/.venv/lib/python3.14/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/rkorzen/workspace/django_10_12_2025/.venv/lib/python3.14/site-packages/django/db/models/query.py", line 1918, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/Users/rkorzen/workspace/django_10_12_2025/.venv/lib/python3.14/site-packages/django/db/models/sql/compiler.py", line 1925, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/rkorzen/workspace/django_10_12_2025/.venv/lib/python3.14/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/rkorzen/workspace/django_10_12_2025/.venv/lib/python3.14/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/rkorzen/workspace/django_10_12_2025/.venv/lib/python3.14/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/rkorzen/workspace/django_10_12_2025/.venv/lib/python3.14/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rkorzen/workspace/django_10_12_2025/.venv/lib/python3.14/site-packages/django/db/utils.py", line 94, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/rkorzen/workspace/django_10_12_2025/.venv/lib/python3.14/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/rkorzen/workspace/django_10_12_2025/.venv/lib/python3.14/site-packages/django/db/backends/sqlite3/base.py", line 359, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: NOT NULL constraint failed: snippets_snippet.owner_id
+2025-12-12 14:13:15,266 [ERROR] django.server: "POST /api/snippets/ HTTP/1.1" 500 286625
+2025-12-12 14:15:07,561 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/snippets/views.py changed, reloading.
+2025-12-12 14:15:08,425 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 14:15:14,107 [INFO] django.server: "POST /api/snippets/ HTTP/1.1" 201 69332
+2025-12-12 14:15:26,877 [INFO] django.server: "GET /api/users/1/ HTTP/1.1" 200 10178
+2025-12-12 14:16:37,270 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/snippets/serializers.py changed, reloading.
+2025-12-12 14:16:37,821 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 14:16:47,558 [INFO] django.server: "POST /api/snippets/ HTTP/1.1" 201 69380
+2025-12-12 14:17:29,574 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/jobboard/urls.py changed, reloading.
+2025-12-12 14:17:30,508 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 14:17:35,223 [INFO] django.server: "POST /api/snippets/ HTTP/1.1" 201 69945
+2025-12-12 14:17:38,255 [INFO] django.server: "POST /api-auth/logout/?next=/api/snippets/ HTTP/1.1" 302 0
+2025-12-12 14:17:38,289 [INFO] django.server: "GET /api/snippets/ HTTP/1.1" 200 70027
+2025-12-12 14:17:39,246 [INFO] django.server: "GET /api-auth/login/?next=/api/snippets/ HTTP/1.1" 200 2714
+2025-12-12 14:17:43,423 [INFO] django.server: "POST /api-auth/login/ HTTP/1.1" 302 0
+2025-12-12 14:17:43,456 [INFO] django.server: "GET /api/snippets/ HTTP/1.1" 200 70562
+2025-12-12 14:18:33,584 [INFO] django.server: "POST /api-auth/logout/?next=/api/snippets/ HTTP/1.1" 302 0
+2025-12-12 14:18:33,612 [INFO] django.server: "GET /api/snippets/ HTTP/1.1" 200 70027
+2025-12-12 14:18:37,134 [INFO] django.server: "GET /api-auth/login/?next=/api/snippets/ HTTP/1.1" 200 2714
+2025-12-12 14:18:42,719 [INFO] django.server: "POST /api-auth/login/ HTTP/1.1" 302 0
+2025-12-12 14:18:42,748 [INFO] django.server: "GET /api/snippets/ HTTP/1.1" 200 70561
+2025-12-12 14:18:50,587 [INFO] django.server: "GET /api/snippets/1/ HTTP/1.1" 200 71323
+2025-12-12 14:18:54,816 [INFO] django.server: "PUT /api/snippets/1/ HTTP/1.1" 200 71326
+2025-12-12 14:20:33,211 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/snippets/views.py changed, reloading.
+2025-12-12 14:20:33,771 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 14:20:38,207 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/snippets/views.py changed, reloading.
+2025-12-12 14:20:38,927 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 14:20:43,901 [INFO] django.server: "POST /api-auth/logout/?next=/api/snippets/1/ HTTP/1.1" 302 0
+2025-12-12 14:20:44,012 [INFO] django.server: "GET /api/snippets/1/ HTTP/1.1" 200 70792
+2025-12-12 14:20:50,058 [INFO] django.server: "PUT /api/snippets/1/ HTTP/1.1" 200 70795
+2025-12-12 14:21:00,053 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/snippets/views.py changed, reloading.
+2025-12-12 14:21:00,608 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 14:21:02,727 [INFO] django.server: "GET /api/snippets/1/ HTTP/1.1" 200 10424
+2025-12-12 14:21:08,610 [INFO] django.server: "GET /api-auth/login/?next=/api/snippets/1/ HTTP/1.1" 200 2716
+2025-12-12 14:21:15,223 [INFO] django.server: "POST /api-auth/login/ HTTP/1.1" 302 0
+2025-12-12 14:21:15,263 [INFO] django.server: "GET /api/snippets/1/ HTTP/1.1" 200 71329
+2025-12-12 14:22:46,538 [INFO] django.server: "GET /api/snippets/1/ HTTP/1.1" 200 71329
+2025-12-12 14:22:47,409 [INFO] django.server: "GET /api/snippets/1/ HTTP/1.1" 200 71329
+2025-12-12 14:22:48,750 [INFO] django.server: "GET /api/snippets/1/ HTTP/1.1" 200 71329
+2025-12-12 14:23:50,542 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/snippets/views.py changed, reloading.
+2025-12-12 14:23:51,328 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 14:23:52,442 [INFO] django.server: "GET /api/snippets/1/ HTTP/1.1" 200 10958
+2025-12-12 14:23:56,329 [INFO] django.server: "POST /api-auth/logout/?next=/api/snippets/1/ HTTP/1.1" 302 0
+2025-12-12 14:23:56,341 [INFO] django.server: "GET /api/snippets/1/ HTTP/1.1" 200 10424
+2025-12-12 14:23:57,596 [INFO] django.server: "GET /api-auth/login/?next=/api/snippets/1/ HTTP/1.1" 200 2716
+2025-12-12 14:24:03,703 [INFO] django.server: "POST /api-auth/login/ HTTP/1.1" 302 0
+2025-12-12 14:24:03,746 [INFO] django.server: "GET /api/snippets/1/ HTTP/1.1" 200 71330
+2025-12-12 14:24:56,457 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/snippets/views.py changed, reloading.
+2025-12-12 14:24:57,036 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 14:25:12,810 [WARNING] django.request: Forbidden: /api/snippets/
+2025-12-12 14:25:12,810 [WARNING] django.server: "POST /api/snippets/ HTTP/1.1" 403 58
+2025-12-12 14:25:13,860 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/snippets/views.py changed, reloading.
+2025-12-12 14:25:14,486 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 14:26:42,544 [ERROR] django.request: Internal Server Error: /api/snippets
+Traceback (most recent call last):
+  File "/Users/rkorzen/workspace/django_10_12_2025/.venv/lib/python3.14/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/rkorzen/workspace/django_10_12_2025/.venv/lib/python3.14/site-packages/django/utils/deprecation.py", line 311, in __call__
+    response = self.process_response(request, response)
+  File "/Users/rkorzen/workspace/django_10_12_2025/.venv/lib/python3.14/site-packages/django/middleware/common.py", line 109, in process_response
+    self.get_full_path_with_slash(request)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/rkorzen/workspace/django_10_12_2025/.venv/lib/python3.14/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+    ...<9 lines>...
+    )
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/api/snippets/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2025-12-12 14:26:42,546 [ERROR] django.server: "POST /api/snippets HTTP/1.1" 500 66230
+2025-12-12 14:27:31,251 [INFO] django.server: "POST /api/snippets/ HTTP/1.1" 201 112
