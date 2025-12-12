@@ -367,3 +367,12 @@ TypeError: info() missing 1 required positional argument: 'message'
 2025-12-12 11:12:46,699 [INFO] django.server: "GET /jobs/1 HTTP/1.1" 200 5207
 2025-12-12 11:13:07,121 [INFO] django.server: "GET /jobs HTTP/1.1" 200 6679
 2025-12-12 11:13:08,518 [INFO] django.server: "GET /jobs/add HTTP/1.1" 200 31585
+2025-12-12 11:20:13,413 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/jobs/views.py changed, reloading.
+2025-12-12 11:20:14,348 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 11:20:40,761 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/jobs/views.py changed, reloading.
+2025-12-12 11:20:41,256 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 11:21:09,972 [INFO] django.server: "POST /jobs/add HTTP/1.1" 200 32518
+2025-12-12 11:21:29,264 [INFO] django.server: "GET /jobs/add HTTP/1.1" 200 31585
+2025-12-12 11:21:30,857 [INFO] django.server: "GET /jobs/add HTTP/1.1" 200 31585
+2025-12-12 11:21:37,258 [INFO] django.server: "POST /jobs/add HTTP/1.1" 200 32517
+2025-12-12 11:22:51,334 [INFO] django.server: "POST /jobs/add HTTP/1.1" 200 32058

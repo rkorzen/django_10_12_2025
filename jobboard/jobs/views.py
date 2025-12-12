@@ -114,7 +114,7 @@ def add(request):
             else:
                 # offer data
                 form.save()
-
+        messages.success(request, "Ogloszenie dodane pomyslnie.")
     return render(
         request=request,
         template_name="jobs/create.html",
