@@ -376,3 +376,19 @@ TypeError: info() missing 1 required positional argument: 'message'
 2025-12-12 11:21:30,857 [INFO] django.server: "GET /jobs/add HTTP/1.1" 200 31585
 2025-12-12 11:21:37,258 [INFO] django.server: "POST /jobs/add HTTP/1.1" 200 32517
 2025-12-12 11:22:51,334 [INFO] django.server: "POST /jobs/add HTTP/1.1" 200 32058
+2025-12-12 11:26:14,565 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/jobboard/settings.py changed, reloading.
+2025-12-12 11:26:15,162 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 11:32:24,470 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/snippets/models.py changed, reloading.
+2025-12-12 11:32:25,000 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 11:32:41,328 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/snippets/models.py changed, reloading.
+2025-12-12 11:32:41,886 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 11:33:59,114 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/snippets/models.py changed, reloading.
+2025-12-12 11:33:59,683 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 11:34:36,196 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/snippets/models.py changed, reloading.
+2025-12-12 11:34:36,774 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 11:35:46,779 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/snippets/models.py changed, reloading.
+2025-12-12 11:35:47,331 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 11:36:43,974 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/snippets/models.py changed, reloading.
+2025-12-12 11:36:44,583 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 11:54:55,430 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/snippets/models.py changed, reloading.
+2025-12-12 11:54:55,946 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
