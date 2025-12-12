@@ -15,7 +15,7 @@ class TimestampedMixin(models.Model):
         abstract = True
 
 class Snippet(TimestampedMixin):
-    title = models.CharField(max_length=255)
+    title = models.CharField(max_length=255, blank=True)
     code = models.TextField()
     linenos = models.BooleanField(default=False)
     language = models.CharField(max_length=100, default="python", choices=LANGUAGE_CHOICES)

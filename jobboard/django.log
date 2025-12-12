@@ -392,3 +392,22 @@ TypeError: info() missing 1 required positional argument: 'message'
 2025-12-12 11:36:44,583 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
 2025-12-12 11:54:55,430 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/snippets/models.py changed, reloading.
 2025-12-12 11:54:55,946 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 12:08:43,464 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/snippets/models.py changed, reloading.
+2025-12-12 12:08:44,041 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 12:13:45,853 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/jobboard/urls.py changed, reloading.
+2025-12-12 12:13:46,368 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 12:14:08,685 [INFO] django.server: "GET /api/snippets HTTP/1.1" 301 0
+2025-12-12 12:14:21,596 [INFO] django.server: "GET /api/snippets/ HTTP/1.1" 200 217
+2025-12-12 12:15:54,981 [WARNING] django.security.csrf: Forbidden (CSRF cookie not set.): /api/snippets/
+2025-12-12 12:15:54,981 [WARNING] django.server: "POST /api/snippets/ HTTP/1.1" 403 2855
+2025-12-12 12:16:54,383 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/snippets/views.py changed, reloading.
+2025-12-12 12:16:55,042 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 12:17:01,422 [INFO] django.server: "POST /api/snippets/ HTTP/1.1" 201 98
+2025-12-12 12:21:33,847 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/snippets/urls.py changed, reloading.
+2025-12-12 12:21:34,424 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 12:22:00,289 [INFO] django.server: "GET /api/snippets/1 HTTP/1.1" 301 0
+2025-12-12 12:22:12,881 [INFO] django.server: "GET /api/snippets/1/ HTTP/1.1" 200 98
+2025-12-12 12:22:36,096 [INFO] django.server: "PUT /api/snippets/1/ HTTP/1.1" 200 98
+2025-12-12 12:22:42,878 [INFO] django.server: "GET /api/snippets/1/ HTTP/1.1" 200 98
+2025-12-12 12:24:49,291 [INFO] django.server: "GET /api/snippets/ HTTP/1.1" 200 317
+2025-12-12 12:25:56,764 [INFO] django.server: "POST /api/snippets/ HTTP/1.1" 201 104
