@@ -19,7 +19,8 @@
             <div class="pagination">
                 {% if offers.has_previous %}
                     <a href="?page=1&per_page={{ per_page }}">first</a>&nbsp;&nbsp; | &nbsp;&nbsp;
-                    <a href="?page={{ offers.previous_page_number }}&per_page={{ per_page }}"><<</a> &nbsp;&nbsp; | &nbsp;&nbsp;
+                    <a href="?page={{ offers.previous_page_number }}&per_page={{ per_page }}"><<</a> &nbsp;&nbsp; |
+                    &nbsp;&nbsp;
                 {% endif %}
 
                 {% if offers.has_next %}
@@ -31,6 +32,11 @@
 
         </div>
         <div class="col-md-4">
+
+            {% if user.is_authenticated %}
+                <a href="{% url "jobs:create" %}" class="btn btn-primary">Dodaj</a>
+            {% endif %}
+
             {{ offers }}<br>
             {{ lista }}<br>
 

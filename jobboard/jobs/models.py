@@ -23,7 +23,7 @@ class Offer(models.Model):
     is_published = models.BooleanField(default=False)
     created_at = models.DateTimeField(auto_now_add=True)
     tags = models.ManyToManyField("tags.Tag", blank=True)
-    recruiter = models.ForeignKey("auth.User", on_delete=models.SET_NULL, null=True, blank=True, related_name="offers")
+    recruiter = models.ForeignKey("auth.User", on_delete=models.SET_NULL, null=True, related_name="offers")
     company = models.ForeignKey(Company, on_delete=models.CASCADE, null=True, blank=True)
 
     def info(self):

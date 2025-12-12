@@ -140,3 +140,14 @@ Dopisz testy do modelu Tag
 
 stworz prost formularz zgloszenia na oferte - ma miec jedno pole email i przycisk. 
 Wyslanie formularza metoda post powinno spowodowac "wyslanie emaila do admina" i odlozenia informacji w logach
+
+
+## cwiczenie
+
+utworz formularz CreateOfferForm, dodaj go do widoku dodawania oferty. (/jobs/add)
+
+
+## cwiczenie - dodaj linka w glownym szablonie do strony about.
+Uzyj widoku klasowego TemplateView do wyswietlenia szablony.
+
+stworz tez szablon about.html w glownym katalogu templates

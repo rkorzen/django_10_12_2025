@@ -80,3 +80,211 @@
 2025-12-11 16:53:39,545 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
 2025-12-11 16:53:45,259 [INFO] django.server: "GET /admin/ HTTP/1.1" 200 15162
 2025-12-11 16:53:55,898 [INFO] django.server: "GET /jobs/1 HTTP/1.1" 200 5042
+2025-12-12 09:03:23,953 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 09:03:31,511 [INFO] django.server: code 400, message Bad request version ('jv\xa2\\x84\xb5Ym\xa9-E\xf05\xbfL\\x946Q1PE\\\\\\x91')
+2025-12-12 09:03:31,511 [ERROR] django.server: You're accessing the development server over HTTPS, but it only supports HTTP.
+2025-12-12 09:03:31,513 [INFO] django.server: code 400, message Bad request version ('5,\\x87P\\x87K\\x80\xa1\xb6\xfb-\\\\FA\xff')
+2025-12-12 09:03:31,513 [ERROR] django.server: You're accessing the development server over HTTPS, but it only supports HTTP.
+2025-12-12 09:03:45,490 [INFO] django.server: "GET /admin/ HTTP/1.1" 200 15162
+2025-12-12 09:03:45,577 [INFO] django.server: "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+2025-12-12 09:03:45,578 [INFO] django.server: "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+2025-12-12 09:03:45,577 [INFO] django.server: "GET /static/admin/css/base.css HTTP/1.1" 304 0
+2025-12-12 09:03:45,579 [INFO] django.server: "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+2025-12-12 09:03:45,579 [INFO] django.server: "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+2025-12-12 09:03:45,580 [INFO] django.server: "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+2025-12-12 09:03:45,599 [INFO] django.server: "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+2025-12-12 09:03:45,619 [INFO] django.server: "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+2025-12-12 09:03:45,623 [INFO] django.server: "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+2025-12-12 09:03:45,666 [WARNING] django.request: Not Found: /favicon.ico
+2025-12-12 09:03:45,666 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4795
+2025-12-12 09:03:56,393 [WARNING] django.request: Not Found: /jobs/
+2025-12-12 09:03:56,393 [WARNING] django.server: "GET /jobs/ HTTP/1.1" 404 4777
+2025-12-12 09:04:00,170 [INFO] django.server: "GET /jobs HTTP/1.1" 200 6382
+2025-12-12 09:04:09,836 [INFO] django.server: "GET /jobs/1 HTTP/1.1" 200 5042
+2025-12-12 09:04:40,763 [INFO] django.server: "GET /jobs HTTP/1.1" 200 6382
+2025-12-12 09:04:49,430 [INFO] django.server: "GET /jobs/add HTTP/1.1" 200 14
+2025-12-12 09:16:18,008 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/jobs/forms.py changed, reloading.
+2025-12-12 09:16:18,502 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 09:17:36,871 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/jobs/views.py changed, reloading.
+2025-12-12 09:17:38,031 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 09:17:39,476 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/jobs/views.py changed, reloading.
+2025-12-12 09:17:40,497 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 09:19:32,689 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/jobs/views.py changed, reloading.
+2025-12-12 09:19:33,208 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 09:19:41,474 [INFO] django.server: "GET /jobs/add HTTP/1.1" 200 53136
+2025-12-12 09:22:24,500 [INFO] django.server: "GET /jobs/add HTTP/1.1" 200 53301
+2025-12-12 09:24:31,382 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/jobs/forms.py changed, reloading.
+2025-12-12 09:24:32,019 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 09:24:37,080 [INFO] django.server: "GET /jobs/add HTTP/1.1" 200 54028
+2025-12-12 09:27:01,330 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/jobs/forms.py changed, reloading.
+2025-12-12 09:27:01,896 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 09:27:38,587 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/jobs/forms.py changed, reloading.
+2025-12-12 09:27:39,086 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 09:27:51,442 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/jobs/forms.py changed, reloading.
+2025-12-12 09:27:52,010 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 09:28:08,501 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/jobs/forms.py changed, reloading.
+2025-12-12 09:28:09,252 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 09:28:15,022 [INFO] django.server: "GET /jobs/add HTTP/1.1" 200 31418
+2025-12-12 09:28:41,454 [INFO] django.server: "POST /jobs/add HTTP/1.1" 200 31418
+2025-12-12 09:31:12,370 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/jobs/views.py changed, reloading.
+2025-12-12 09:31:13,218 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 09:31:53,801 [INFO] django.server: "POST /jobs/add HTTP/1.1" 200 31511
+2025-12-12 09:32:00,841 [INFO] django.server: "GET /admin/jobs/offer/ HTTP/1.1" 200 100602
+2025-12-12 09:32:00,921 [INFO] django.server: "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+2025-12-12 09:32:00,924 [INFO] django.server: "GET /static/admin/js/core.js HTTP/1.1" 304 0
+2025-12-12 09:32:00,925 [INFO] django.server: "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+2025-12-12 09:32:00,928 [INFO] django.server: "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+2025-12-12 09:32:00,932 [INFO] django.server: "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+2025-12-12 09:32:00,933 [INFO] django.server: "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+2025-12-12 09:32:00,938 [INFO] django.server: "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+2025-12-12 09:32:00,938 [INFO] django.server: "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+2025-12-12 09:32:00,939 [INFO] django.server: "GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+2025-12-12 09:32:00,943 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2025-12-12 09:32:00,946 [INFO] django.server: "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+2025-12-12 09:32:00,947 [INFO] django.server: "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+2025-12-12 09:32:00,952 [INFO] django.server: "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+2025-12-12 09:32:00,962 [INFO] django.server: "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+2025-12-12 09:32:00,992 [INFO] django.server: "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+2025-12-12 09:32:00,993 [INFO] django.server: "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+2025-12-12 09:36:31,012 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/jobs/views.py changed, reloading.
+2025-12-12 09:36:31,604 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 09:38:44,827 [INFO] django.server: "GET /admin/jobs/offer/559/change/ HTTP/1.1" 200 70068
+2025-12-12 09:38:44,895 [INFO] django.server: "GET /static/admin/js/SelectBox.js HTTP/1.1" 304 0
+2025-12-12 09:38:44,897 [INFO] django.server: "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+2025-12-12 09:38:44,899 [INFO] django.server: "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 304 0
+2025-12-12 09:38:44,900 [INFO] django.server: "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+2025-12-12 09:38:44,904 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2025-12-12 09:38:44,905 [INFO] django.server: "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+2025-12-12 09:38:44,912 [INFO] django.server: "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+2025-12-12 09:38:44,942 [INFO] django.server: "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+2025-12-12 09:38:45,017 [INFO] django.server: "GET /static/admin/img/selector-icons.svg HTTP/1.1" 304 0
+2025-12-12 09:39:32,206 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/jobs/models.py changed, reloading.
+2025-12-12 09:39:32,671 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 09:39:43,312 [INFO] django.server: "GET /admin/jobs/offer/559/change/ HTTP/1.1" 200 70094
+2025-12-12 09:39:43,347 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2025-12-12 09:39:48,983 [INFO] django.server: "POST /admin/jobs/offer/559/change/ HTTP/1.1" 200 70288
+2025-12-12 09:39:49,028 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2025-12-12 09:40:01,548 [INFO] django.server: "POST /jobs/add HTTP/1.1" 200 31543
+2025-12-12 09:40:04,799 [INFO] django.server: "POST /jobs/add HTTP/1.1" 200 31543
+2025-12-12 09:40:10,195 [INFO] django.server: "GET /admin/jobs/company/ HTTP/1.1" 200 54717
+2025-12-12 09:40:10,255 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2025-12-12 09:40:10,977 [INFO] django.server: "GET /admin/jobs/offer/ HTTP/1.1" 200 100634
+2025-12-12 09:40:11,037 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2025-12-12 09:41:35,738 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/jobs/views.py changed, reloading.
+2025-12-12 09:41:36,310 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 09:41:50,073 [INFO] django.server: "GET /jobs/add HTTP/1.1" 200 31450
+2025-12-12 09:42:16,767 [INFO] django.server: "GET /admin/jobs/offer/ HTTP/1.1" 302 0
+2025-12-12 09:42:16,818 [INFO] django.server: "GET /admin/login/?next=/admin/jobs/offer/ HTTP/1.1" 200 4102
+2025-12-12 09:42:16,947 [INFO] django.server: "GET /static/admin/css/base.css HTTP/1.1" 200 23100
+2025-12-12 09:42:16,947 [INFO] django.server: "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+2025-12-12 09:42:16,947 [INFO] django.server: "GET /static/admin/css/responsive.css HTTP/1.1" 200 16194
+2025-12-12 09:42:16,948 [INFO] django.server: "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 3538
+2025-12-12 09:42:16,948 [INFO] django.server: "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+2025-12-12 09:42:16,948 [INFO] django.server: "GET /static/admin/css/login.css HTTP/1.1" 200 951
+2025-12-12 09:42:16,969 [INFO] django.server: "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+2025-12-12 09:42:33,359 [INFO] django.server: "POST /admin/login/?next=/admin/jobs/offer/ HTTP/1.1" 302 0
+2025-12-12 09:42:33,513 [INFO] django.server: "GET /admin/jobs/offer/ HTTP/1.1" 200 100634
+2025-12-12 09:42:33,604 [INFO] django.server: "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+2025-12-12 09:42:33,604 [INFO] django.server: "GET /static/admin/css/changelists.css HTTP/1.1" 200 7501
+2025-12-12 09:42:33,604 [INFO] django.server: "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+2025-12-12 09:42:33,606 [INFO] django.server: "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9777
+2025-12-12 09:42:33,610 [INFO] django.server: "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+2025-12-12 09:42:33,610 [INFO] django.server: "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+2025-12-12 09:42:33,611 [INFO] django.server: "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+2025-12-12 09:42:33,614 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2025-12-12 09:42:33,616 [INFO] django.server: "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 645
+2025-12-12 09:42:33,618 [INFO] django.server: "GET /static/admin/img/search.svg HTTP/1.1" 200 607
+2025-12-12 09:42:33,620 [INFO] django.server: "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+2025-12-12 09:42:33,622 [INFO] django.server: "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+2025-12-12 09:42:33,626 [INFO] django.server: "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+2025-12-12 09:42:33,634 [INFO] django.server: "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 558
+2025-12-12 09:42:33,664 [INFO] django.server: "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 928
+2025-12-12 09:42:33,664 [INFO] django.server: "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 593
+2025-12-12 09:42:33,665 [INFO] django.server: "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 593
+2025-12-12 09:42:40,228 [INFO] django.server: "POST /admin/logout/ HTTP/1.1" 200 3475
+2025-12-12 09:42:48,168 [INFO] django.server: "GET /jobs/add HTTP/1.1" 302 0
+2025-12-12 09:42:48,181 [WARNING] django.request: Not Found: /accounts/login/
+2025-12-12 09:42:48,181 [WARNING] django.server: "GET /accounts/login/?next=/jobs/add HTTP/1.1" 404 4822
+2025-12-12 09:51:10,539 [WARNING] django.request: Not Found: /accounts/login/
+2025-12-12 09:51:10,539 [WARNING] django.server: "GET /accounts/login/?next=/jobs/add HTTP/1.1" 404 4822
+2025-12-12 09:51:11,570 [WARNING] django.request: Not Found: /accounts/login/
+2025-12-12 09:51:11,571 [WARNING] django.server: "GET /accounts/login/?next=/jobs/add HTTP/1.1" 404 4822
+2025-12-12 09:51:35,564 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/jobboard/urls.py changed, reloading.
+2025-12-12 09:51:36,029 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 09:52:44,904 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 09:55:03,398 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 09:55:09,403 [ERROR] django.request: Internal Server Error: /accounts/login/
+Traceback (most recent call last):
+  File "/Users/rkorzen/workspace/django_10_12_2025/.venv/lib/python3.14/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/rkorzen/workspace/django_10_12_2025/.venv/lib/python3.14/site-packages/django/core/handlers/base.py", line 221, in _get_response
+    response = response.render()
+  File "/Users/rkorzen/workspace/django_10_12_2025/.venv/lib/python3.14/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rkorzen/workspace/django_10_12_2025/.venv/lib/python3.14/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/Users/rkorzen/workspace/django_10_12_2025/.venv/lib/python3.14/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/Users/rkorzen/workspace/django_10_12_2025/.venv/lib/python3.14/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: accounts/login.html
+2025-12-12 09:55:09,405 [ERROR] django.server: "GET /accounts/login/?next=/jobs/add HTTP/1.1" 500 79103
+2025-12-12 09:55:25,058 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/jobboard/settings.py changed, reloading.
+2025-12-12 09:55:25,735 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 09:55:28,546 [INFO] django.server: "GET /accounts/login/?next=/jobs/add HTTP/1.1" 200 4594
+2025-12-12 09:56:24,636 [INFO] django.server: "GET /accounts/login/?next=/jobs/add HTTP/1.1" 200 4657
+2025-12-12 09:56:25,282 [INFO] django.server: "GET /accounts/login/?next=/jobs/add HTTP/1.1" 200 4657
+2025-12-12 09:56:38,374 [INFO] django.server: "POST /accounts/login/?next=/jobs/add HTTP/1.1" 302 0
+2025-12-12 09:56:38,441 [INFO] django.server: "GET /jobs/add HTTP/1.1" 200 31450
+2025-12-12 09:57:53,391 [INFO] django.server: "GET /jobs/add HTTP/1.1" 200 31248
+2025-12-12 09:58:57,332 [INFO] django.server: "GET /jobs/add HTTP/1.1" 200 31342
+2025-12-12 09:58:58,972 [WARNING] django.request: Method Not Allowed (GET): /accounts/logout/
+2025-12-12 09:58:58,972 [WARNING] django.server: "GET /accounts/logout/ HTTP/1.1" 405 0
+2025-12-12 09:59:02,858 [WARNING] django.request: Method Not Allowed (GET): /accounts/logout/
+2025-12-12 09:59:02,858 [WARNING] django.server: "GET /accounts/logout/ HTTP/1.1" 405 0
+2025-12-12 10:00:45,444 [WARNING] django.request: Method Not Allowed (GET): /accounts/logout/
+2025-12-12 10:00:45,445 [WARNING] django.server: "GET /accounts/logout/ HTTP/1.1" 405 0
+2025-12-12 10:00:48,504 [INFO] django.server: "GET /jobs/add HTTP/1.1" 200 31428
+2025-12-12 10:00:50,880 [WARNING] django.security.csrf: Forbidden (CSRF token missing.): /accounts/logout/
+2025-12-12 10:00:50,880 [WARNING] django.server: "POST /accounts/logout/ HTTP/1.1" 403 2491
+2025-12-12 10:01:09,317 [INFO] django.server: "GET /jobs/add HTTP/1.1" 200 31574
+2025-12-12 10:01:10,519 [INFO] django.server: "POST /accounts/logout/ HTTP/1.1" 302 0
+2025-12-12 10:01:10,536 [INFO] django.server: "GET /jobs HTTP/1.1" 200 6417
+2025-12-12 10:01:50,743 [INFO] django.server: "GET /jobs HTTP/1.1" 200 6335
+2025-12-12 10:01:52,643 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4610
+2025-12-12 10:01:56,654 [INFO] django.server: "POST /accounts/login/ HTTP/1.1" 302 0
+2025-12-12 10:01:56,660 [WARNING] django.request: Not Found: /accounts/profile/
+2025-12-12 10:01:56,660 [WARNING] django.server: "GET /accounts/profile/ HTTP/1.1" 404 5339
+2025-12-12 10:03:02,043 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/jobboard/settings.py changed, reloading.
+2025-12-12 10:03:02,651 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 10:03:08,729 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4781
+2025-12-12 10:03:10,477 [INFO] django.server: "POST /accounts/logout/ HTTP/1.1" 302 0
+2025-12-12 10:03:10,492 [INFO] django.server: "GET /jobs HTTP/1.1" 200 6335
+2025-12-12 10:03:14,382 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4610
+2025-12-12 10:03:21,601 [INFO] django.server: "POST /accounts/login/ HTTP/1.1" 302 0
+2025-12-12 10:03:21,605 [INFO] django.server: "GET / HTTP/1.1" 200 18
+2025-12-12 10:05:10,110 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/jobs/urls.py changed, reloading.
+2025-12-12 10:05:10,842 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 10:05:15,656 [INFO] django.server: "GET / HTTP/1.1" 200 3880
+2025-12-12 10:05:21,604 [INFO] django.server: "GET /jobs HTTP/1.1" 200 6506
+2025-12-12 10:06:05,886 [INFO] django.server: "GET /jobs HTTP/1.1" 200 6506
+2025-12-12 10:06:07,912 [INFO] django.server: "GET /jobs HTTP/1.1" 200 6506
+2025-12-12 10:06:08,786 [INFO] django.server: "GET /jobs HTTP/1.1" 200 6506
+2025-12-12 10:06:09,632 [INFO] django.server: "GET / HTTP/1.1" 200 3880
+2025-12-12 10:06:11,121 [INFO] django.server: "GET /todos HTTP/1.1" 200 4053
+2025-12-12 10:06:12,113 [INFO] django.server: "GET /jobs HTTP/1.1" 200 6506
+2025-12-12 10:06:12,710 [INFO] django.server: "GET / HTTP/1.1" 200 3880
+2025-12-12 10:06:15,846 [INFO] django.server: "GET / HTTP/1.1" 200 3880
+2025-12-12 10:06:16,214 [INFO] django.server: "GET /jobs HTTP/1.1" 200 6506
+2025-12-12 10:06:16,730 [INFO] django.server: "GET /todos HTTP/1.1" 200 4053
+2025-12-12 10:06:17,419 [INFO] django.server: "GET /jobs HTTP/1.1" 200 6506
+2025-12-12 10:06:17,927 [INFO] django.server: "GET / HTTP/1.1" 200 3880
+2025-12-12 10:06:28,166 [INFO] django.server: "GET /jobs HTTP/1.1" 200 6506
+2025-12-12 10:08:04,706 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/jobs/urls.py changed, reloading.
+2025-12-12 10:08:05,346 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 10:08:31,525 [INFO] django.server: "GET /jobs HTTP/1.1" 200 6603
+2025-12-12 10:09:00,045 [INFO] django.server: "GET /jobs HTTP/1.1" 200 6604
+2025-12-12 10:09:21,837 [INFO] django.server: "GET /jobs/add HTTP/1.1" 200 31574
+2025-12-12 10:09:24,943 [INFO] django.server: "POST /accounts/logout/ HTTP/1.1" 302 0
+2025-12-12 10:09:24,953 [INFO] django.server: "GET /jobs HTTP/1.1" 200 6350

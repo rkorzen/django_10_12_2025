@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     "jobs",
     "todos",
     "tags",
+    "accounts",
 ]
 
 MIDDLEWARE = [
@@ -159,3 +160,7 @@ LOGGING = {
         "jobs": {"handlers": ["console", "file"], "level": "DEBUG", "propagate": True},
     }
 }
+
+LOGIN_REDIRECT_URL = "/"
+LOGOUT_REDIRECT_URL = "/accounts/login/"
+LOGIN_URL = "/accounts/login/"

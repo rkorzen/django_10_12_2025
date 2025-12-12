@@ -1,21 +1,22 @@
 import logging
 
+from django.contrib.auth.decorators import login_required
 from django.core.mail import send_mail
 from django.core.paginator import Paginator
 from django.http import HttpResponse
 from django.shortcuts import render
 from django.conf import settings
+from django.views.generic import TemplateView
 
 from tags.models import Tag
-from .forms import ContactForm, OfferRegistrationForm
-from .models import Offer, Registration
+from .forms import ContactForm, OfferRegistrationForm, CreateOfferForm
+from .models import Offer, Registration, Company
 
 logger = logging.getLogger(__name__)
 
 
-def home_view(request):
-    return HttpResponse("Hello Worlsdsdsdd!")
-
+class MyHomePageView(TemplateView):
+    template_name = "base.html"
 
 def list(request):
     # pobieram z bazy
@@ -86,9 +87,37 @@ def detail(request, id):
         context
     )
 
-
+@login_required
 def add(request):
-    return HttpResponse("Dodanie oferty")
+
+    form  = CreateOfferForm()
+    if request.method == "POST":
+        form = CreateOfferForm(request.POST)
+        if form.is_valid():
+            # company data
+            company_name = form.cleaned_data["company_name"]
+            website = form.cleaned_data["website"]
+            size = form.cleaned_data["size"]
+
+            company, created = Company.objects.get_or_create(name=company_name)
+
+            if created:
+                company.website = website
+                company.size = size
+                company.save()
+
+                instance = form.save(commit=False)
+                instance.company = company
+                instance.save()
+            else:
+                # offer data
+                form.save()
+
+    return render(
+        request=request,
+        template_name="jobs/create.html",
+        context={"form": form}
+    )
 
 
 def about(request):
