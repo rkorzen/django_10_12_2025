@@ -1,5 +1,7 @@
 from django.http import HttpResponse
 from django.shortcuts import render
+from django.views.generic import ListView
+
 from .models import Todo
 
 
@@ -18,6 +20,16 @@ def list(request):
         "todos/list.html",
         context
     )
+
+class TodoListView(ListView):
+    model = Todo
+
+    def get_queryset(self):
+        queryset = super().get_queryset()
+        if q := self.request.GET.get("q"):
+            queryset = queryset.filter(title__icontains=q)
+        return queryset
+
 
 def detail(request, id):
 

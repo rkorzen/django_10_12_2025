@@ -47,6 +47,17 @@ class CreateOfferForm(forms.ModelForm):
         model = Offer
         exclude = ["recruiter"]
 
+    def clean(self):
+        cleaned_data = super().clean()
+        company = cleaned_data.get("company")
+        company_name = (cleaned_data.get("company_name") or "").strip()
+
+        if not company and not company_name:
+            msg = "Podaj firmę (wybierz z listy) albo wpisz nazwę firmy."
+            self.add_error("company", msg)
+            self.add_error("company_name", msg)
+
+        return cleaned_data
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)

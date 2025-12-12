@@ -18,4 +18,9 @@
 
 
     <a href="{% url "jobs:list" %}">Powrót</a>
+
+    {{ xxx }}
+    {%  for message in messages %}
+        {{ message }}
+    {% endfor %}
 {% endblock %}

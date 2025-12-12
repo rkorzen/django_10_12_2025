@@ -288,3 +288,82 @@ django.template.exceptions.TemplateDoesNotExist: accounts/login.html
 2025-12-12 10:09:21,837 [INFO] django.server: "GET /jobs/add HTTP/1.1" 200 31574
 2025-12-12 10:09:24,943 [INFO] django.server: "POST /accounts/logout/ HTTP/1.1" 302 0
 2025-12-12 10:09:24,953 [INFO] django.server: "GET /jobs HTTP/1.1" 200 6350
+2025-12-12 10:13:29,072 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/jobs/forms.py changed, reloading.
+2025-12-12 10:13:29,477 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 10:13:34,532 [INFO] django.server: "GET /jobs HTTP/1.1" 200 6350
+2025-12-12 10:13:36,665 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4610
+2025-12-12 10:13:40,882 [INFO] django.server: "POST /accounts/login/ HTTP/1.1" 302 0
+2025-12-12 10:13:40,887 [INFO] django.server: "GET / HTTP/1.1" 200 3880
+2025-12-12 10:13:42,825 [INFO] django.server: "GET /jobs HTTP/1.1" 200 6604
+2025-12-12 10:13:43,970 [INFO] django.server: "GET /jobs/add HTTP/1.1" 200 31574
+2025-12-12 10:13:49,417 [INFO] django.server: "POST /jobs/add HTTP/1.1" 200 32080
+2025-12-12 10:20:02,830 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/jobs/urls.py changed, reloading.
+2025-12-12 10:20:03,263 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 10:20:26,200 [INFO] django.server: "GET /contact HTTP/1.1" 200 4874
+2025-12-12 10:20:26,969 [INFO] django.server: "GET /about HTTP/1.1" 200 8895
+2025-12-12 10:22:48,816 [INFO] django.server: "GET /about HTTP/1.1" 200 9656
+2025-12-12 10:46:38,557 [INFO] django.server: "GET /todos HTTP/1.1" 200 4058
+2025-12-12 10:46:39,810 [INFO] django.server: "GET /jobs HTTP/1.1" 200 6609
+2025-12-12 10:46:40,804 [INFO] django.server: "GET / HTTP/1.1" 200 3885
+2025-12-12 10:46:42,030 [INFO] django.server: "GET /jobs HTTP/1.1" 200 6609
+2025-12-12 10:46:42,861 [INFO] django.server: "GET /todos HTTP/1.1" 200 4058
+2025-12-12 10:46:43,894 [INFO] django.server: "GET /about HTTP/1.1" 200 9656
+2025-12-12 10:48:03,622 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/jobs/views.py changed, reloading.
+2025-12-12 10:48:04,291 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 10:48:05,261 [INFO] django.server: "GET /todos HTTP/1.1" 200 4058
+2025-12-12 10:52:08,902 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/todos/urls.py changed, reloading.
+2025-12-12 10:52:09,525 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 10:52:12,723 [INFO] django.server: "GET /todos HTTP/1.1" 200 4058
+2025-12-12 10:52:13,752 [INFO] django.server: "GET /todos HTTP/1.1" 200 4058
+2025-12-12 10:52:14,160 [INFO] django.server: "GET /todos HTTP/1.1" 200 4058
+2025-12-12 10:52:17,174 [INFO] django.server: "GET /todos HTTP/1.1" 200 4058
+2025-12-12 10:52:17,862 [INFO] django.server: "GET /jobs HTTP/1.1" 200 6609
+2025-12-12 10:52:18,243 [INFO] django.server: "GET /todos HTTP/1.1" 200 4058
+2025-12-12 10:54:24,866 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/todos/views.py changed, reloading.
+2025-12-12 10:54:25,535 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 10:54:27,531 [INFO] django.server: "GET /todos HTTP/1.1" 200 4058
+2025-12-12 10:54:28,063 [INFO] django.server: "GET /todos HTTP/1.1" 200 4058
+2025-12-12 10:54:28,775 [INFO] django.server: "GET /todos HTTP/1.1" 200 4058
+2025-12-12 10:54:29,539 [INFO] django.server: "GET /jobs HTTP/1.1" 200 6609
+2025-12-12 10:54:29,935 [INFO] django.server: "GET /todos HTTP/1.1" 200 4058
+2025-12-12 10:54:30,505 [INFO] django.server: "GET /about HTTP/1.1" 200 9656
+2025-12-12 10:54:31,049 [INFO] django.server: "GET /contact HTTP/1.1" 200 4874
+2025-12-12 10:54:31,482 [INFO] django.server: "GET /about HTTP/1.1" 200 9656
+2025-12-12 10:57:06,493 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/todos/views.py changed, reloading.
+2025-12-12 10:57:07,127 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 10:57:09,522 [INFO] django.server: "GET /todos HTTP/1.1" 200 4058
+2025-12-12 10:57:10,979 [INFO] django.server: "GET /jobs HTTP/1.1" 200 6609
+2025-12-12 10:57:12,038 [INFO] django.server: "GET /jobs/1 HTTP/1.1" 200 5171
+2025-12-12 10:57:20,350 [INFO] django.server: "POST /jobs/1 HTTP/1.1" 200 5208
+2025-12-12 10:59:34,499 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/jobs/views.py changed, reloading.
+2025-12-12 10:59:35,090 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 11:03:07,708 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/jobs/views.py changed, reloading.
+2025-12-12 11:03:08,292 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 11:04:02,052 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/jobs/views.py changed, reloading.
+2025-12-12 11:04:02,630 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 11:06:16,809 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/jobboard/settings.py changed, reloading.
+2025-12-12 11:06:17,311 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 11:07:37,655 [INFO] django.server: "GET /jobs/1 HTTP/1.1" 200 5278
+2025-12-12 11:07:53,366 [ERROR] django.request: Internal Server Error: /jobs/1
+Traceback (most recent call last):
+  File "/Users/rkorzen/workspace/django_10_12_2025/.venv/lib/python3.14/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/rkorzen/workspace/django_10_12_2025/.venv/lib/python3.14/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/rkorzen/workspace/django_10_12_2025/jobboard/jobs/views.py", line 83, in detail
+    messages.info("Tworze zgłoszenie zostało zapisane.")
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: info() missing 1 required positional argument: 'message'
+2025-12-12 11:07:53,368 [ERROR] django.server: "POST /jobs/1 HTTP/1.1" 500 65428
+2025-12-12 11:08:17,417 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/jobs/views.py changed, reloading.
+2025-12-12 11:08:18,254 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 11:08:24,190 [INFO] django.server: "POST /jobs/1 HTTP/1.1" 200 5316
+2025-12-12 11:09:18,618 [INFO] django.server: "POST /jobs/1 HTTP/1.1" 200 5340
+2025-12-12 11:09:25,857 [INFO] django.server: "GET /jobs/1 HTTP/1.1" 200 5201
+2025-12-12 11:09:32,262 [INFO] django.server: "POST /jobs/1 HTTP/1.1" 200 5274
+2025-12-12 11:12:19,791 [INFO] django.server: "POST /jobs/1 HTTP/1.1" 200 5692
+2025-12-12 11:12:43,980 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/jobs/views.py changed, reloading.
+2025-12-12 11:12:45,304 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 11:12:46,699 [INFO] django.server: "GET /jobs/1 HTTP/1.1" 200 5207
+2025-12-12 11:13:07,121 [INFO] django.server: "GET /jobs HTTP/1.1" 200 6679
+2025-12-12 11:13:08,518 [INFO] django.server: "GET /jobs/add HTTP/1.1" 200 31585

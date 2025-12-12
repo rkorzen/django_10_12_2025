@@ -1,0 +1,177 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <article id="about-company">
+
+  <!-- HERO / JUMBOTRON -->
+  <section class="py-5 bg-primary bg-gradient text-white">
+    <div class="container py-5">
+      <div class="row align-items-center">
+        <div class="col-lg-7">
+          <p class="text-uppercase small opacity-75 mb-2">Butikowa rekrutacja</p>
+          <h1 class="display-5 fw-bold mb-3">
+            Rekrutacja, która naprawdę działa
+          </h1>
+          <p class="lead mb-4">
+            Pomagamy firmom zatrudniać właściwych ludzi, a kandydatom
+            znajdować miejsca, w których chcą zostać na dłużej.
+            Pracujemy transparentnie, szybko i partnersko.
+          </p>
+          <div class="d-flex gap-3 flex-wrap">
+            <a href="/kontakt" class="btn btn-light btn-lg">
+              Porozmawiajmy
+            </a>
+            <a href="#process" class="btn btn-outline-light btn-lg">
+              Jak pracujemy
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-5 d-none d-lg-block">
+          <div class="bg-white bg-opacity-10 rounded-4 p-4">
+            <div class="row text-center">
+              <div class="col-6">
+                <div class="display-6 fw-bold">48h</div>
+                <small>Pierwsza shortlista</small>
+              </div>
+              <div class="col-6">
+                <div class="display-6 fw-bold">90%</div>
+                <small>Skutecznych procesów</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- O NAS -->
+  <section class="container my-5">
+    <header class="text-center mb-5">
+      <h2 class="fw-bold">Dlaczego warto z nami pracować</h2>
+      <p class="lead text-secondary">
+        Skupiamy się na dopasowaniu, a nie ilości przesłanych CV.
+      </p>
+    </header>
+
+    <div class="row g-4">
+
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm border-0 text-center">
+          <div class="card-body">
+            <div class="display-6 mb-3">🎯</div>
+            <h3 class="h5 fw-semibold">Precyzja</h3>
+            <p class="text-secondary">
+              Każdy kandydat jest zweryfikowany pod kątem kompetencji,
+              motywacji i dopasowania do zespołu.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm border-0 text-center">
+          <div class="card-body">
+            <div class="display-6 mb-3">⚡</div>
+            <h3 class="h5 fw-semibold">Tempo</h3>
+            <p class="text-secondary">
+              Dzięki aktywnemu sourcingowi pierwsze profile
+              dostarczamy nawet w ciągu 48 godzin.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm border-0 text-center">
+          <div class="card-body">
+            <div class="display-6 mb-3">🤝</div>
+            <h3 class="h5 fw-semibold">Partnerstwo</h3>
+            <p class="text-secondary">
+              Jeden opiekun procesu, jasna komunikacja
+              i feedback na każdym etapie.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PROCES -->
+  <section id="process" class="bg-light py-5">
+    <div class="container">
+      <div class="row align-items-center g-5">
+
+        <div class="col-md-6">
+          <h2 class="fw-bold mb-4">Jak pracujemy</h2>
+          <ol class="fs-5 ps-3">
+            <li class="mb-2">Zrozumienie roli i kontekstu biznesowego</li>
+            <li class="mb-2">Aktywny sourcing i selekcja</li>
+            <li class="mb-2">Rozmowy i rzetelna weryfikacja</li>
+            <li class="mb-2">Shortlista z rekomendacjami</li>
+            <li>Wsparcie przy ofercie i onboardingu</li>
+          </ol>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card shadow-sm border-0">
+            <div class="card-body">
+              <h3 class="h5 fw-semibold mb-3">Specjalizacje</h3>
+              <div class="d-flex flex-wrap gap-2">
+                <span class="badge bg-secondary">Python / Django</span>
+                <span class="badge bg-secondary">Frontend</span>
+                <span class="badge bg-secondary">DevOps / Cloud</span>
+                <span class="badge bg-secondary">Data / ML</span>
+                <span class="badge bg-secondary">Finanse</span>
+                <span class="badge bg-secondary">Sprzedaż B2B</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- STATYSTYKI -->
+  <section class="container py-5">
+    <div class="row text-center g-4">
+      <div class="col-md-3">
+        <div class="display-6 fw-bold text-primary">10+</div>
+        <p class="text-secondary mb-0">lat doświadczenia</p>
+      </div>
+      <div class="col-md-3">
+        <div class="display-6 fw-bold text-primary">300+</div>
+        <p class="text-secondary mb-0">zatrudnionych osób</p>
+      </div>
+      <div class="col-md-3">
+        <div class="display-6 fw-bold text-primary">90%</div>
+        <p class="text-secondary mb-0">retencji po roku</p>
+      </div>
+      <div class="col-md-3">
+        <div class="display-6 fw-bold text-primary">48h</div>
+        <p class="text-secondary mb-0">do shortlisty</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="py-5 bg-dark text-white text-center">
+    <div class="container">
+      <h2 class="fw-bold mb-3">Gotowy na skuteczną rekrutację?</h2>
+      <p class="lead text-secondary mb-4">
+        Porozmawiajmy o Twoich potrzebach — bez zobowiązań.
+      </p>
+      <a href="/kontakt" class="btn btn-primary btn-lg px-5">
+        Umów rozmowę
+      </a>
+    </div>
+  </section>
+
+</article>
+
+
+{% endblock %}

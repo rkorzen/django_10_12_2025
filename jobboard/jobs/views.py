@@ -1,4 +1,5 @@
 import logging
+from pyexpat.errors import messages
 
 from django.contrib.auth.decorators import login_required
 from django.core.mail import send_mail
@@ -7,7 +8,7 @@ from django.http import HttpResponse
 from django.shortcuts import render
 from django.conf import settings
 from django.views.generic import TemplateView
-
+from django.contrib import messages
 from tags.models import Tag
 from .forms import ContactForm, OfferRegistrationForm, CreateOfferForm
 from .models import Offer, Registration, Company
@@ -79,6 +80,7 @@ def detail(request, id):
             except Registration.DoesNotExist:
                 instance.offer = Offer.objects.get(id=id)
                 instance.save()
+            messages.info(request, "Twoje zgłoszenie zostało zapisane.")
 
     context = {"offer": offer, "form": form}
     return render(
@@ -120,9 +122,12 @@ def add(request):
     )
 
 
-def about(request):
-    return HttpResponse("O nas")
+class AboutPageView(TemplateView):
+    template_name = "about.html"
 
+
+def about(request):
+    return render(request, "about.html")
 
 def contact(request):
     print(request.method)
