@@ -977,3 +977,102 @@ django.urls.exceptions.NoReverseMatch: Reverse for 'user_list' not found. 'user_
 2025-12-12 14:45:58,944 [INFO] django.server: "GET /api/users/?page=10 HTTP/1.1" 200 1035
 2025-12-12 14:48:22,251 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/snippets/views.py changed, reloading.
 2025-12-12 14:48:23,045 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 14:49:22,943 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/snippets/views.py changed, reloading.
+2025-12-12 14:49:23,478 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 14:50:13,962 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/snippets/views.py changed, reloading.
+2025-12-12 14:50:14,455 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 14:50:35,158 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/snippets/views.py changed, reloading.
+2025-12-12 14:50:36,005 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 14:53:49,899 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/snippets/urls.py changed, reloading.
+2025-12-12 14:53:50,412 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 14:53:55,890 [INFO] django.server: "GET /api/ HTTP/1.1" 200 10711
+2025-12-12 14:53:55,946 [INFO] django.server: "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+2025-12-12 14:53:55,946 [INFO] django.server: "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+2025-12-12 14:53:55,949 [INFO] django.server: "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+2025-12-12 14:53:55,949 [INFO] django.server: "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+2025-12-12 14:53:55,952 [INFO] django.server: "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+2025-12-12 14:53:55,954 [INFO] django.server: "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 304 0
+2025-12-12 14:53:55,954 [INFO] django.server: "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+2025-12-12 14:53:55,955 [INFO] django.server: "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 304 0
+2025-12-12 14:53:55,956 [INFO] django.server: "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+2025-12-12 14:53:55,956 [INFO] django.server: "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+2025-12-12 14:53:55,956 [INFO] django.server: "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+2025-12-12 14:53:55,962 [INFO] django.server: "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+2025-12-12 14:53:58,789 [INFO] django.server: "GET /api/snippets/ HTTP/1.1" 200 72480
+2025-12-12 14:54:01,272 [INFO] django.server: "GET /api/snippets/1/ HTTP/1.1" 200 71810
+2025-12-12 14:54:02,792 [INFO] django.server: "GET /api/snippets/1/highlight/ HTTP/1.1" 200 4211
+2025-12-12 14:56:57,977 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/snippets/views.py changed, reloading.
+2025-12-12 14:56:58,589 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 14:57:05,997 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/snippets/urls.py changed, reloading.
+2025-12-12 14:57:06,510 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 14:57:13,317 [INFO] django.server: "GET /api/snippets/ HTTP/1.1" 200 72480
+2025-12-12 14:57:15,676 [INFO] django.server: "GET /api/snippets/1/highlight/ HTTP/1.1" 200 4211
+2025-12-12 14:58:47,570 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/snippets/views.py changed, reloading.
+2025-12-12 14:58:48,098 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 15:16:02,726 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/snippets/urls.py changed, reloading.
+2025-12-12 15:16:03,214 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 15:17:27,029 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/snippets/urls.py changed, reloading.
+2025-12-12 15:17:29,064 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 15:17:41,750 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/snippets/urls.py changed, reloading.
+2025-12-12 15:17:42,757 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 15:17:47,113 [INFO] django.server: "GET /api/snippets/ HTTP/1.1" 200 72525
+2025-12-12 15:17:47,188 [INFO] django.server: "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+2025-12-12 15:17:47,196 [INFO] django.server: "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+2025-12-12 15:17:47,199 [INFO] django.server: "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 304 0
+2025-12-12 15:17:47,200 [INFO] django.server: "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+2025-12-12 15:17:47,196 [INFO] django.server: "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+2025-12-12 15:17:47,203 [INFO] django.server: "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+2025-12-12 15:17:47,205 [INFO] django.server: "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+2025-12-12 15:17:47,206 [INFO] django.server: "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+2025-12-12 15:17:47,210 [INFO] django.server: "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+2025-12-12 15:17:47,212 [INFO] django.server: "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 304 0
+2025-12-12 15:17:47,212 [INFO] django.server: "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+2025-12-12 15:17:47,229 [INFO] django.server: "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+2025-12-12 15:17:55,353 [ERROR] django.request: Internal Server Error: /api/
+Traceback (most recent call last):
+  File "/Users/rkorzen/workspace/django_10_12_2025/.venv/lib/python3.14/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/rkorzen/workspace/django_10_12_2025/.venv/lib/python3.14/site-packages/django/core/handlers/base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/rkorzen/workspace/django_10_12_2025/.venv/lib/python3.14/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/Users/rkorzen/workspace/django_10_12_2025/.venv/lib/python3.14/site-packages/django/views/generic/base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rkorzen/workspace/django_10_12_2025/.venv/lib/python3.14/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/rkorzen/workspace/django_10_12_2025/.venv/lib/python3.14/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/rkorzen/workspace/django_10_12_2025/.venv/lib/python3.14/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/Users/rkorzen/workspace/django_10_12_2025/.venv/lib/python3.14/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/rkorzen/workspace/django_10_12_2025/.venv/lib/python3.14/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/Users/rkorzen/workspace/django_10_12_2025/jobboard/snippets/views.py", line 48, in api_root
+    "snippets": reverse("snippets-list", request=request, format=format),
+                ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rkorzen/workspace/django_10_12_2025/.venv/lib/python3.14/site-packages/rest_framework/reverse.py", line 47, in reverse
+    url = _reverse(viewname, args, kwargs, request, format, **extra)
+  File "/Users/rkorzen/workspace/django_10_12_2025/.venv/lib/python3.14/site-packages/rest_framework/reverse.py", line 60, in _reverse
+    url = django_reverse(viewname, args=args, kwargs=kwargs, **extra)
+  File "/Users/rkorzen/workspace/django_10_12_2025/.venv/lib/python3.14/site-packages/django/urls/base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/Users/rkorzen/workspace/django_10_12_2025/.venv/lib/python3.14/site-packages/django/urls/resolvers.py", line 842, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'snippets-list' not found. 'snippets-list' is not a valid view function or pattern name.
+2025-12-12 15:17:55,361 [ERROR] django.server: "GET /api/ HTTP/1.1" 500 114698
+2025-12-12 15:18:25,469 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/snippets/urls.py changed, reloading.
+2025-12-12 15:18:26,438 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 15:18:28,046 [INFO] django.server: "GET /api/snippets/ HTTP/1.1" 200 72525
+2025-12-12 15:18:29,914 [INFO] django.server: "GET /api/ HTTP/1.1" 200 10762
+2025-12-12 15:18:32,942 [INFO] django.server: "GET /api/snippets/ HTTP/1.1" 200 72525
+2025-12-12 15:18:35,332 [INFO] django.server: "GET /api/snippets/1/highlight/ HTTP/1.1" 200 4211
+2025-12-12 15:19:28,630 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/snippets/urls.py changed, reloading.
+2025-12-12 15:19:29,535 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 15:19:31,324 [INFO] django.server: "GET /api/ HTTP/1.1" 200 10762
+2025-12-12 15:20:02,187 [INFO] django.utils.autoreload: /Users/rkorzen/workspace/django_10_12_2025/jobboard/snippets/urls.py changed, reloading.
+2025-12-12 15:20:02,889 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-12-12 15:20:06,544 [INFO] django.server: "GET /api/ HTTP/1.1" 200 10762
+2025-12-12 15:20:12,035 [INFO] django.server: "GET /api/snippets/ HTTP/1.1" 200 72525

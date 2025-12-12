@@ -1,15 +1,13 @@
-from django.urls import path
+from django.urls import path, include
+from rest_framework.routers import DefaultRouter
 
 from . import views
+
+router = DefaultRouter()
+router.register(r"snippets", views.SnippetViewSet, )
+router.register(r"users", views.UserViewSet, basename="user")
 urlpatterns = [
-    path("", views.api_root, name="index"),
-    path("snippets/", views.SnippetList.as_view(), name="snippets-list"),
-    path("snippets/<int:pk>/", views.SnippetDetail.as_view(), name="snippet-detail"),
-    path("snippets/<int:pk>/highlight/", views.SnippetHighlight.as_view(), name="snippet-highlight"),
-
-    path("users/", views.UserList.as_view(), name="user-list"),
-    path("users/<int:pk>/", views.UserDetail.as_view(), name="user-detail"),
-
+    path("", include(router.urls))
 ]
 
-# urlpatterns = format_suffix_patterns(urlpatterns)
+# api/
