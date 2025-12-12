@@ -1,4 +1,4 @@
-GET http://127.0.0.1:8000/api/snippets/
+GET http://127.0.0.1:8000/api/users/?page=10
 
 
 ###
